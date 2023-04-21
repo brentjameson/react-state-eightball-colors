@@ -1,0 +1,28 @@
+.Eightball {
+    width: 300px;
+    height: 300px;
+    border: solid black 2pt;
+    background-color: white;
+    position: relative;
+    margin: 20px auto;
+}
+
+.Eightball-circle {
+    width: 250px;
+    height: 250px;
+    border: solid black 2pt;
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Eightball-msg {
+    line-height: 16px;
+    font-size: 16px;
+    vertical-align: middle;
+    padding: 100px 3px 0 3px;
+}
